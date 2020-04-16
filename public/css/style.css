@@ -99,7 +99,7 @@ nav.navbar {
     background: -webkit-linear-gradient(left top, #ecdeff 0%, #c1acdf 100%);
     color: #363062;
     padding-top: 10%;
-    padding-bottom: 10%;
+    padding-bottom: 12%;
 }
 
 
@@ -182,4 +182,53 @@ nav.navbar {
 .skill2 h2 {
     margin-top: 30px;
     font-size: 23px;
+}
+
+/*-------------------------------------------Proyectos Carousel--------------------------------------*/
+
+
+
+.proyectos {
+    width: auto;
+    text-align: center;
+}
+
+
+
+.item {
+    background-color: black;
+    opacity: 0.5;
+
+}
+
+.carouselH1 a {
+    text-decoration: underline;
+    opacity: 1;
+    font-size: 2rem;
+    color: white;
+}
+
+.carouselH1 a:hover {
+    color: blue;
+}
+
+.carouselP {
+    opacity: 1;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.githubicon {
+    width: 30px;
+    height: auto;
+}
+
+.carousel-control-prev-icon {
+    background-color: black;
+    border-radius: 50%;
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+    border-radius: 50%;
 }
