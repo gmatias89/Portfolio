@@ -13,10 +13,16 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 app.get("/", function (req, res) {
-    res.render("Home");
+    res.render("home");
 });
 
-app.listen(process.env.PORT || 3000, function () {
+let port = process.env.PORT;
+if (port == "" || port == null) {
+    port = 3000;
+
+}
+
+app.listen(port, function () {
     console.log("Server running on port 3000");
 
 });
