@@ -51,8 +51,11 @@ nav.navbar {
 
 /*-------------------------------Front----------------------------------------*/
 
+.row {
+    margin-right: 0;
+}
+
 .front {
-    width: 100vw;
     height: 100vh;
     background: -webkit-linear-gradient(-60deg, #363062 50%, #282449 25%, #282449 56%, #e67e1e 25%);
 }
@@ -72,7 +75,7 @@ nav.navbar {
 }
 
 .frontTextoBox h1 {
-    font-size: 60px;
+    font-size: 4.5rem;
 }
 
 .frontImgDiv {
@@ -81,7 +84,7 @@ nav.navbar {
 }
 
 .frontImg {
-    height: 700px;
+    height: 90vh;
     width: auto;
 }
 
