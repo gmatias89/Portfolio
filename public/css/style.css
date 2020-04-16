@@ -88,8 +88,7 @@ nav.navbar {
 /*-------------------------------Perfil----------------------------------------*/
 .perfilDiv {
     font-family: 'Baloo Tamma 2', cursive;
-    width: 100vw;
-    height: 100vh;
+
     font-weight: 700;
     background: -webkit-linear-gradient(left top, #ecdeff 0%, #c1acdf 100%);
     color: #363062;
@@ -126,7 +125,7 @@ nav.navbar {
     font-size: 20px;
     text-align: center;
 
-    width: 400px;
+    width: 30vw;
     margin: auto;
     margin-top: 50px;
 }
@@ -153,6 +152,7 @@ nav.navbar {
 
 .skill1 h2 {
     margin-top: 25px;
+    font-size: 23px;
 }
 
 .skill2 {
@@ -166,10 +166,6 @@ nav.navbar {
 }
 
 .skill2 h2 {
-    margin-top: 25px;
-    margin-left: 35px;
-}
-
-.skill2 p {
-    margin-left: 35px;
+    margin-top: 30px;
+    font-size: 23px;
 }
