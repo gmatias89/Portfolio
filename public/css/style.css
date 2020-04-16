@@ -23,6 +23,10 @@ nav.navbar {
     font-size: 25px;
 }
 
+.nav-link {
+    font-size: 1.1rem;
+}
+
 #myBtn {
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
@@ -52,7 +56,7 @@ nav.navbar {
 /*-------------------------------Front----------------------------------------*/
 
 .row {
-    margin-right: 0;
+    margin: 0;
 }
 
 .front {
@@ -91,11 +95,14 @@ nav.navbar {
 /*-------------------------------Perfil----------------------------------------*/
 .perfilDiv {
     font-family: 'Baloo Tamma 2', cursive;
-
     font-weight: 700;
     background: -webkit-linear-gradient(left top, #ecdeff 0%, #c1acdf 100%);
     color: #363062;
+    padding-top: 8%;
+    padding-bottom: 8%;
 }
+
+
 
 .perfil {
 
@@ -104,15 +111,17 @@ nav.navbar {
 
 .gradientBox {
 
-    background: -webkit-linear-gradient(left top, #302b57 0%, #726485 100%);
+    background: -webkit-linear-gradient(left top, #433b79 0%, #221f3f 100%);
     border-radius: 100%;
     height: 280px;
     width: 280px;
 
 
     margin: auto;
+    -webkit-box-shadow: 19px 19px 22px -7px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 19px 19px 22px -7px rgba(0, 0, 0, 0.5);
+    box-shadow: 19px 19px 22px -7px rgba(0, 0, 0, 0.5);
 
-    margin-top: 20vh;
 }
 
 .gradientBox img {
@@ -128,22 +137,24 @@ nav.navbar {
     font-size: 20px;
     text-align: center;
 
-    width: 30vw;
+    width: 40vw;
     margin: auto;
     margin-top: 50px;
 }
 
 .vl {
+    position: absolute;
+    right: 50%;
     border-left: 1px solid #302b57;
     border-right: 1px solid #302b57;
     border-radius: 50%;
-    height: 100vh;
+    height: 70%;
     width: 1px;
     opacity: 0.5;
 }
 
+
 .skill1 {
-    margin-top: 20vh;
     text-align: left;
 }
 
