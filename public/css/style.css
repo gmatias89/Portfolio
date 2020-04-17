@@ -232,3 +232,44 @@ nav.navbar {
     background-color: black;
     border-radius: 50%;
 }
+
+/*-------------------------------------------Contacto--------------------------------------*/
+
+.contacto {
+    font-family: 'Merriweather', serif;
+    height: 65vh;
+    text-align: center;
+    margin-top: 15vh;
+}
+
+.contactoForm {
+
+    padding: 25px;
+    text-align: left;
+    margin: auto;
+    width: 50vh;
+
+}
+
+/*-------------------------------------------Footer--------------------------------------*/
+.footer {
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    background-color: #363062;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.footerText {
+
+    font-family: 'Baloo Tamma 2', cursive;
+    background: -webkit-linear-gradient(white, #dfdfdf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
+
+.footerText a {
+    text-decoration: underline;
+}
