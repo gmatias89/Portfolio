@@ -6,7 +6,7 @@ $(window).scroll(function () {
     }
 });
 
-mybutton = document.getElementById("myBtn");
+mybutton = document.getElementById("btn-goto-top");
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () {
