@@ -1,55 +1,57 @@
-<div class="proyectos" id="Proyectos">
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-        </ol>
-        <!-- ----------------------------------------------Primer item ------------------------------------->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/proyecto1.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block item">
-                    <h5 class="carouselH1"><a href="https://github.com/gmatias89/Portfolio"
-                            target="_blank">Portfolio</a> </h5>
-                    <p class="carouselP">El codigo fuente de este Portfolio se encuentra publico en Github -><a
-                            href="https://github.com/gmatias89/Portfolio" target="_blank"><img class="githubicon"
-                                src="img/github-icon.png" alt=""></a></p>
-                </div>
-            </div>
-            <!-- ----------------------------------------------Segundo item ------------------------------------->
-            <div class="carousel-item ">
-                <a href="https://todolist-gmatias89.herokuapp.com/" target="_blank"> <img src="img/proyecto2.png"
-                        class="d-block w-100" alt="..."> </a>
-                <div class="carousel-caption d-none d-md-block item">
-                    <h5 class="carouselH1"><a href="https://todolist-gmatias89.herokuapp.com/" target="_blank">Todo List
-                            con MongoDB</a>
-                    </h5>
-                    <p class="carouselP">Todo List hecho con Node.js y MongoDB con creacion de tareas y multiples listas
-                        ->Github <a href="https://github.com/gmatias89/TodoListMongoDB" target="_blank"><img
-                                class="githubicon" src="img/github-icon.png" alt=""></a></p>
-                </div>
-            </div>
-            <!-- ----------------------------------------------Tercer item ------------------------------------->
-            <div class="carousel-item">
-                <a href="http://blog-gmatias89.herokuapp.com/" target="_blank"> <img src="img/proyecto3.png"
-                        class="d-block w-100" alt="..."> </a>
-                <div class="carousel-caption d-none d-md-block item">
-                    <h5 class="carouselH1"><a href="http://blog-gmatias89.herokuapp.com/" target="_blank">Blog con
-                            MongoDB</a></h5>
-                    <p class="carouselP">Blog hecho con Node.js y MongoDB con Creacion de posts ->Github<a
-                            href="https://github.com/gmatias89/BlogMongoDB" target="_blank"><img class="githubicon"
-                                src="img/github-icon.png" alt=""></a></p>
-                </div>
-            </div>
+<section class="row" id="Proyectos">
+    <h1 class="col-12">Proyectos</h1>
+
+    <div class="proyecto-card col-10 row">
+        <div class="proyecto-img-div col-lg-4 col-md-12 col-sm-12">
+            <a href=""><img class="proyecto-img" src="\img\proyecto1.png" alt=""></a>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+        <div class="proyecto-texto col-lg-6 col-md-12 col-sm-12">
+            <h2 class="proyecto-title">Portfolio</h2>
+            <p class="proyecto-desc">Este portfolio utiliza un back end en Node.js con Express, Nodemailer para la
+                funcionalidad del contacto y asi yo recibir el email automaticamente, Body Parser, plantillas EJS para
+                un mejor orden
+                y mejor visibilidad del proyecto y bootstrap para los componentes responsive.
+            </p>
+            <a class="proyecto-links" href=""><img src="\img\github.svg" alt="">En Github</a><br>
+            <a class="proyecto-links" href=""><img src="\img\heroku.svg" alt="">En vivo en Heroku</a>
+        </div>
+
     </div>
-</div>
+
+    <div class="proyecto-card col-10 row">
+        <div class="proyecto-img-div col-lg-4 col-md-12 col-sm-12">
+            <a href=""><img class="proyecto-img" src="\img\proyecto2.png" alt=""></a>
+        </div>
+        <div class="proyecto-texto col-lg-6 col-md-12 col-sm-12">
+            <h2 class="proyecto-title">Todo List</h2>
+            <p class="proyecto-desc"> Este todo list fue hecho en Node.js con Express, base de datos en MongoDB manejado
+                con Mongoose y alojada en MongoDB Atlas, tiene la funcionalidad de poder abrir multiples listas de
+                tareas
+                simplemente cambiando la ruta con el nombre que se quiere y se creara y guardara en la base de datos
+                ej: "Todolist.com/NombreDeLaListaACrear".
+
+            </p>
+            <a class="proyecto-links" href=""><img src="\img\github.svg" alt="">En Github</a><br>
+            <a class="proyecto-links" href=""><img src="\img\heroku.svg" alt="">En vivo en Heroku</a>
+        </div>
+
+    </div>
+
+    <div class="proyecto-card col-10 row">
+        <div class="proyecto-img-div col-lg-4 col-md-12 col-sm-12">
+            <a href=""><img class="proyecto-img" src="\img\proyecto3.png" alt=""></a>
+        </div>
+        <div class="proyecto-texto col-lg-6 col-md-12 col-sm-12">
+            <h2 class="proyecto-title">Blog</h2>
+            <p class="proyecto-desc">Este Blog fue hecho en Node.js con Express, base de datos en MongoDB manejado
+                con Mongoose y alojada en MongoDB Atlas, tiene la funcionalidad de poder agregar posts agregando
+                "/compose"
+                al final de la ruta como una ruta secreta, por ej: "Blog.com/compose".
+            </p>
+            <a class="proyecto-links" href=""><img src="\img\github.svg" alt="">En Github</a><br>
+            <a class="proyecto-links" href=""><img src="\img\heroku.svg" alt="">En vivo en Heroku</a>
+        </div>
+
+    </div>
+
+</section>
