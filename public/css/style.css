@@ -131,7 +131,6 @@ nav.navbar {
     font-size: 20px;
     text-align: center;
 
-    width: 40vw;
     margin: auto;
 
     margin-top: 6%;
@@ -236,19 +235,46 @@ nav.navbar {
 
 .contacto {
     font-family: 'Merriweather', serif;
-    height: 65vh;
     text-align: center;
-    margin-top: 15vh;
+    padding: 5% 0 5% 0;
+    margin:auto;
 }
 
 .contactoForm {
-
+    background-color: #f0f0f0;
+    border-radius: 15px;
+    border: solid black 1px;
     padding: 25px;
     text-align: left;
     margin: auto;
     width: 50vh;
 
 }
+
+.contacto-div-links{
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.contacto-link{
+    display: inline-flex;
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+}
+.contacto-link a img{
+    float: left;
+    width: 28px;
+    height: auto;
+    
+}
+.contacto-link a h4{
+    
+    display: inline-block;
+    margin-left: 5px;
+    
+}
+
 
 /*------------------------------------------- Boton Goto-top --------------------------------------*/
 #btn-goto-top {
