@@ -89,7 +89,9 @@ nav.navbar {
 #Perfil {
     font-family: 'Baloo Tamma 2', cursive;
     font-weight: 700;
-    background-color: white;
+    background-color: #f0f0f0;
+    background-image: url("../img/cubes.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     color: #363062;
 
     padding-top: 6%;
@@ -172,7 +174,8 @@ nav.navbar {
 
 #Proyectos {
     border-radius: 15px;
-    background-color: #302b57;
+    background-color: #363062;
+    background-image: url("../img/az-subtle.png");
     text-align: center;
     margin: auto;
     padding: 5% 0 5% 0;
@@ -238,6 +241,9 @@ nav.navbar {
     text-align: center;
     padding: 5% 0 5% 0;
     margin:auto;
+    
+    background-color: #f0f0f0;
+    background-image: url("../img/cubes.png");
 }
 
 .contactoForm {
@@ -312,6 +318,9 @@ nav.navbar {
     background-color: #363062;
     padding-top: 50px;
     padding-bottom: 70px;
+    
+    background-color: #363062;
+    background-image: url("../img/az-subtle.png");
 }
 
 .footerText {
